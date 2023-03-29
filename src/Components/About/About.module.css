@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    background-color: aliceblue;
+  }
+
+  a {
+    padding: 10px;
+  }
+
+  
+
+  img {
+    width: 560px;
+    height: 600px;
+    margin-top: 35px;
+    margin-left: 45px;
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.6);
+  }
+
+  .detail {
+    display: flex;
+    margin: 40px 100px;
+    padding: 40px;
+    justify-content: center;
+  }
+
+  .name {
+    font-size: 100px;
+    margin: 0 20px 0 0;
+    color: #3e4349;
+    font-family: "Aboreto", cursive;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  #secondname {
+    color: gray;
+  }
+
+  .about {
+    margin: 25px 0;
+    width: 500px;
+    color: gray;
+    font-family: "Aboreto", cursive;
+  }
+
+  .heading {
+    font-family: "Aboreto", cursive;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    font-size: 40px;
+  }
+
+  .generalinfo {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+  }
+
+  .font {
+    font-family: "Aboreto", cursive;
+    font-weight: bolder;
+  }
+
+  .light {
+    font-family: "Aboreto", cursive;
+  }

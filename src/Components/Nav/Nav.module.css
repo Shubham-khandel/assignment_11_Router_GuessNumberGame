@@ -1,0 +1,50 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  #ul1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #traine {
+    margin: 0;
+    font-size: 35px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+    cursor: pointer;
+  }
+
+  #hFive {
+    display: flex;
+    margin: 0 5px;
+    font-size: 15px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+
+  .navbutton {
+    padding: 8px;
+    margin-top: 10px;
+    width: 160px;
+    height: 45px;
+    background-color: aliceblue;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    cursor: pointer;
+  }
+
+  .function {
+    margin: 0;
+    margin-left: 5px;
+    color: red;
+  }
+
+  .function:hover {
+    color: darkred;
+    transition: 1s;
+    cursor: pointer;
+  }

@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.image{
+    position: relative;
+    width: 140px;
+    height: 110px;
+    border-radius: 50%;
+    margin: -50px;
+}
+
+.container{
+    display: flex;
+    height: 92vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2f4d86;
+}
+
+.container form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    padding: 25px;
+    height: 300px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    margin: 10px;
+    width: 350px;
+    padding: 5px;
+}
+
+input::placeholder{
+    padding: 10px;
+    letter-spacing: 3px;
+    padding-left: 20px;
+}
+
+.insideContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 360px;
+    margin-top: 25px;
+}
+
+form span a{
+    margin: 0;
+    padding: 0;
+}
+
+.loginButton{
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    background-color: #2f8dac;
+    border: none;
+    cursor: pointer;
+}
+
